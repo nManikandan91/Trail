@@ -17,9 +17,10 @@ public class Canarabank {
 		Alert a = driver.switchTo().alert();
 		Thread.sleep(5000);
 		System.out.println(a.getText());
-		a.accept();
 		
-	}
+		a.accept();
+		System.out.println("Success");}
+	
 	
 
 }
